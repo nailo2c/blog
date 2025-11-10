@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Categories - Category - ✎ᝰ.</title>
+        <link>http://localhost:1313/categories/categories/</link>
+        <description>Categories - Category - ✎ᝰ.</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 07 Nov 2025 21:16:00 -0800</lastBuildDate><atom:link href="http://localhost:1313/categories/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>My First Post</title>
+    <link>http://localhost:1313/archive/my-first-post/</link>
+    <pubDate>Fri, 07 Nov 2025 21:16:00 -0800</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/archive/my-first-post/</guid>
+    <description><![CDATA[<h2 id="introduction" class="headerLink">
+    <a href="#introduction" class="header-mark"></a>Introduction</h2><p>This is <strong>bold</strong> text, and this is <em>emphasized</em> text.</p>
+<p>Visit the <a href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a> website!</p>]]></description>
+</item></channel>
+</rss>

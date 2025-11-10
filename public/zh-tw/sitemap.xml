@@ -2,24 +2,6 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://nailo2c.github.io/zh-tw/posts/</loc><lastmod>2025-11-07T21:16:00-08:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://nailo2c.github.io/posts/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-tw"
-                    href="https://nailo2c.github.io/zh-tw/posts/"
-                    /></url><url>
-            <loc>https://nailo2c.github.io/zh-tw/showcase/</loc><lastmod>2025-11-07T21:16:00-08:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://nailo2c.github.io/showcase/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-tw"
-                    href="https://nailo2c.github.io/zh-tw/showcase/"
-                    /></url><url>
             <loc>https://nailo2c.github.io/zh-tw/</loc><lastmod>2025-11-07T21:16:00-08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -29,16 +11,16 @@
                     hreflang="zh-tw"
                     href="https://nailo2c.github.io/zh-tw/"
                     /></url><url>
-            <loc>https://nailo2c.github.io/zh-tw/posts/my-first-post/</loc><lastmod>2025-11-07T21:16:00-08:00</lastmod><xhtml:link
+            <loc>https://nailo2c.github.io/zh-tw/archive/</loc><lastmod>2025-11-07T21:16:00-08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://nailo2c.github.io/posts/my-first-post/"
+                        href="https://nailo2c.github.io/archive/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-tw"
-                    href="https://nailo2c.github.io/zh-tw/posts/my-first-post/"
+                    href="https://nailo2c.github.io/zh-tw/archive/"
                     /></url><url>
-            <loc>https://nailo2c.github.io/zh-tw/categories/</loc><xhtml:link
+            <loc>https://nailo2c.github.io/zh-tw/categories/</loc><lastmod>2025-11-07T21:16:00-08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://nailo2c.github.io/categories/"
@@ -47,7 +29,25 @@
                     hreflang="zh-tw"
                     href="https://nailo2c.github.io/zh-tw/categories/"
                     /></url><url>
-            <loc>https://nailo2c.github.io/zh-tw/tags/</loc><xhtml:link
+            <loc>https://nailo2c.github.io/zh-tw/categories/documentation/</loc><lastmod>2025-11-07T21:16:00-08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://nailo2c.github.io/categories/documentation/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-tw"
+                    href="https://nailo2c.github.io/zh-tw/categories/documentation/"
+                    /></url><url>
+            <loc>https://nailo2c.github.io/zh-tw/tags/markdown/</loc><lastmod>2025-11-07T21:16:00-08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://nailo2c.github.io/tags/markdown/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-tw"
+                    href="https://nailo2c.github.io/zh-tw/tags/markdown/"
+                    /></url><url>
+            <loc>https://nailo2c.github.io/zh-tw/tags/</loc><lastmod>2025-11-07T21:16:00-08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://nailo2c.github.io/tags/"
@@ -55,4 +55,31 @@
                     rel="alternate"
                     hreflang="zh-tw"
                     href="https://nailo2c.github.io/zh-tw/tags/"
+                    /></url><url>
+            <loc>https://nailo2c.github.io/zh-tw/tags/test/</loc><lastmod>2025-11-07T21:16:00-08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://nailo2c.github.io/tags/test/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-tw"
+                    href="https://nailo2c.github.io/zh-tw/tags/test/"
+                    /></url><url>
+            <loc>https://nailo2c.github.io/zh-tw/posts/</loc><lastmod>2025-11-07T21:16:00-08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://nailo2c.github.io/posts/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-tw"
+                    href="https://nailo2c.github.io/zh-tw/posts/"
+                    /></url><url>
+            <loc>https://nailo2c.github.io/zh-tw/archive/my-first-post/</loc><lastmod>2025-11-07T21:16:00-08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://nailo2c.github.io/archive/my-first-post/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-tw"
+                    href="https://nailo2c.github.io/zh-tw/archive/my-first-post/"
                     /></url></urlset>

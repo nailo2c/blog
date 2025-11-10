@@ -1,5 +1,5 @@
 ---
-title: "Showcase"
+title: "Posts"
 date: 2025-11-07T21:16:00-08:00
 draft: false
 

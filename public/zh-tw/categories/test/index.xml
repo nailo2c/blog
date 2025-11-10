@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Test - 分類 - ✎ᝰ.</title>
+        <link>http://localhost:1313/zh-tw/categories/test/</link>
+        <description>Test - 分類 - ✎ᝰ.</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Fri, 07 Nov 2025 21:16:00 -0800</lastBuildDate><atom:link href="http://localhost:1313/zh-tw/categories/test/" rel="self" type="application/rss+xml" /><item>
+    <title>我的第一篇文章</title>
+    <link>http://localhost:1313/zh-tw/archive/my-first-post/</link>
+    <pubDate>Fri, 07 Nov 2025 21:16:00 -0800</pubDate><author>
+        <name>作者</name>
+    </author><guid>http://localhost:1313/zh-tw/archive/my-first-post/</guid>
+    <description><![CDATA[<h2 id="介紹" class="headerLink">
+    <a href="#%e4%bb%8b%e7%b4%b9" class="header-mark"></a>介紹</h2><p>這是<strong>粗體</strong>，這是<em>強調</em>。</p>
+<p>訪問<a href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a>的網站！</p>]]></description>
+</item></channel>
+</rss>

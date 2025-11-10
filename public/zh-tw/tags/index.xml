@@ -1,7 +1,21 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Tags - 標籤 - 我的 Hugo 網站</title>
+        <title>Tags - 標籤 - ✎ᝰ.</title>
         <link>https://nailo2c.github.io/zh-tw/tags/</link>
-        <description>Tags - 標籤 - 我的 Hugo 網站</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><atom:link href="https://nailo2c.github.io/zh-tw/tags/" rel="self" type="application/rss+xml" /></channel>
+        <description>Tags - 標籤 - ✎ᝰ.</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Fri, 07 Nov 2025 21:16:00 -0800</lastBuildDate><atom:link href="https://nailo2c.github.io/zh-tw/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Markdown</title>
+    <link>https://nailo2c.github.io/zh-tw/tags/markdown/</link>
+    <pubDate>Fri, 07 Nov 2025 21:16:00 -0800</pubDate><author>
+        <name>作者</name>
+    </author><guid>https://nailo2c.github.io/zh-tw/tags/markdown/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Test</title>
+    <link>https://nailo2c.github.io/zh-tw/tags/test/</link>
+    <pubDate>Fri, 07 Nov 2025 21:16:00 -0800</pubDate><author>
+        <name>作者</name>
+    </author><guid>https://nailo2c.github.io/zh-tw/tags/test/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
 </rss>
