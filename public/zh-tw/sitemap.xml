@@ -2,57 +2,57 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://localhost:1313/zh-tw/posts/</loc><lastmod>2025-11-07T21:16:00-08:00</lastmod><xhtml:link
+            <loc>https://nailo2c.github.io/zh-tw/posts/</loc><lastmod>2025-11-07T21:16:00-08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="http://localhost:1313/posts/"
+                        href="https://nailo2c.github.io/posts/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-tw"
-                    href="http://localhost:1313/zh-tw/posts/"
+                    href="https://nailo2c.github.io/zh-tw/posts/"
                     /></url><url>
-            <loc>http://localhost:1313/zh-tw/showcase/</loc><lastmod>2025-11-07T21:16:00-08:00</lastmod><xhtml:link
+            <loc>https://nailo2c.github.io/zh-tw/showcase/</loc><lastmod>2025-11-07T21:16:00-08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="http://localhost:1313/showcase/"
+                        href="https://nailo2c.github.io/showcase/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-tw"
-                    href="http://localhost:1313/zh-tw/showcase/"
+                    href="https://nailo2c.github.io/zh-tw/showcase/"
                     /></url><url>
-            <loc>http://localhost:1313/zh-tw/</loc><lastmod>2025-11-07T21:16:00-08:00</lastmod><xhtml:link
+            <loc>https://nailo2c.github.io/zh-tw/</loc><lastmod>2025-11-07T21:16:00-08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="http://localhost:1313/"
+                        href="https://nailo2c.github.io/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-tw"
-                    href="http://localhost:1313/zh-tw/"
+                    href="https://nailo2c.github.io/zh-tw/"
                     /></url><url>
-            <loc>http://localhost:1313/zh-tw/posts/my-first-post/</loc><lastmod>2025-11-07T21:16:00-08:00</lastmod><xhtml:link
+            <loc>https://nailo2c.github.io/zh-tw/posts/my-first-post/</loc><lastmod>2025-11-07T21:16:00-08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="http://localhost:1313/posts/my-first-post/"
+                        href="https://nailo2c.github.io/posts/my-first-post/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-tw"
-                    href="http://localhost:1313/zh-tw/posts/my-first-post/"
+                    href="https://nailo2c.github.io/zh-tw/posts/my-first-post/"
                     /></url><url>
-            <loc>http://localhost:1313/zh-tw/categories/</loc><xhtml:link
+            <loc>https://nailo2c.github.io/zh-tw/categories/</loc><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="http://localhost:1313/categories/"
+                        href="https://nailo2c.github.io/categories/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-tw"
-                    href="http://localhost:1313/zh-tw/categories/"
+                    href="https://nailo2c.github.io/zh-tw/categories/"
                     /></url><url>
-            <loc>http://localhost:1313/zh-tw/tags/</loc><xhtml:link
+            <loc>https://nailo2c.github.io/zh-tw/tags/</loc><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="http://localhost:1313/tags/"
+                        href="https://nailo2c.github.io/tags/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-tw"
-                    href="http://localhost:1313/zh-tw/tags/"
+                    href="https://nailo2c.github.io/zh-tw/tags/"
                     /></url></urlset>
