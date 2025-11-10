@@ -1,4 +1,100 @@
 baseURL = 'https://nailo2c.github.io/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'ananke'
+
+theme = "DoIt"
+
+# website title
+title = "My New Hugo Site"
+
+# language code ["en", "zh-tw", "fr", "pl", ...]
+languageCode = "en"
+# language name ["English", "简体中文", "Français", "Polski", ...]
+languageName = "English"
+
+
+# Markup related configuration in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
+
+
+[languages]
+  [languages.en]
+    weight = 1
+    title = "My New Hugo Site"
+    languageCode = "en"
+    languageName = "English"
+    [[languages.en.menu.main]]
+      identifier = "posts"
+      pre = ""
+      post = ""
+      name = "Posts"
+      url = "/posts/"
+      title = ""
+      weight = 1
+    [[languages.en.menu.main]]
+      identifier = "tags"
+      pre = ""
+      post = ""
+      name = "Tags"
+      url = "/tags/"
+      title = ""
+      weight = 2
+    [[languages.en.menu.main]]
+      identifier = "categories"
+      pre = ""
+      post = ""
+      name = "Categories"
+      url = "/categories/"
+      title = ""
+      weight = 3
+    [[languages.en.menu.main]]
+      identifier = "showcase"
+      pre = ""
+      post = ""
+      name = "Showcase"
+      url = "/showcase/"
+      title = ""
+      weight = 4
+
+  [languages.zh-tw]
+    weight = 2
+    title = "我的 Hugo 網站"
+    # language code, CN only here
+    languageCode = "zh-tw"
+    languageName = "繁體中文"
+    # whether to include Chinese/Japanese/Korean
+    hasCJKLanguage = true
+    [[languages.zh-tw.menu.main]]
+      identifier = "posts"
+      pre = ""
+      post = ""
+      name = "文章"
+      url = "/posts/"
+      title = ""
+      weight = 1
+    [[languages.zh-tw.menu.main]]
+      identifier = "tags"
+      pre = ""
+      post = ""
+      name = "標籤"
+      url = "/tags/"
+      title = ""
+      weight = 2
+    [[languages.zh-tw.menu.main]]
+      identifier = "categories"
+      pre = ""
+      post = ""
+      name = "分類"
+      url = "/categories/"
+      title = ""
+      weight = 3
+    [[languages.zh-tw.menu.main]]
+      identifier = "showcase"
+      pre = ""
+      post = ""
+      name = "展示"
+      url = "/showcase/"
+      title = ""
+      weight = 4
