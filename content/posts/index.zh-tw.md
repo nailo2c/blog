@@ -5,4 +5,4 @@ draft: false
 
 ---
 
-{{< showcase "我的第一篇文章" "測試" "/posts/my-first-post/image.png" "/zh-tw/posts/my-first-post" >}}
+{{< showcase "我的第一篇文章" "測試" "/archive/my-first-post/image.png" "/zh-tw/archive/my-first-post" >}}

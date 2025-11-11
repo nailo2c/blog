@@ -5,4 +5,4 @@ draft: false
 
 ---
 
-{{< showcase "My First Post" "Test" "/posts/my-first-post/image.png" "/posts/my-first-post" >}}
+{{< showcase "My First Post" "Test" "/archive/my-first-post/image.png" "/archive/my-first-post" >}}
