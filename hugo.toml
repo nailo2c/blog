@@ -40,14 +40,14 @@ languageName = "English"
       url = "/archive/"
       title = ""
       weight = 2
-    [[languages.en.menu.main]]
-      identifier = "tags"
-      pre = ""
-      post = ""
-      name = "Tags"
-      url = "/tags/"
-      title = ""
-      weight = 3
+    # [[languages.en.menu.main]]
+    #   identifier = "tags"
+    #   pre = ""
+    #   post = ""
+    #   name = "Tags"
+    #   url = "/tags/"
+    #   title = ""
+    #   weight = 3
     [[languages.en.menu.main]]
       identifier = "categories"
       pre = ""
@@ -79,14 +79,14 @@ languageName = "English"
       url = "/archive/"
       title = ""
       weight = 2
-    [[languages.zh-tw.menu.main]]
-      identifier = "tags"
-      pre = ""
-      post = ""
-      name = "標籤"
-      url = "/tags/"
-      title = ""
-      weight = 3
+    # [[languages.zh-tw.menu.main]]
+    #   identifier = "tags"
+    #   pre = ""
+    #   post = ""
+    #   name = "標籤"
+    #   url = "/tags/"
+    #   title = ""
+    #   weight = 3
     [[languages.zh-tw.menu.main]]
       identifier = "categories"
       pre = ""
