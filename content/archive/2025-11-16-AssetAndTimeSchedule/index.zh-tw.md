@@ -55,6 +55,10 @@ def example_dag():
 
 它會將 dags 區分為 non_asset_dags 跟 asset_triggered_dags，並把他們放進 table 中，狀態為 DagRunState.QUEUED。
 
+non_asset_dags 由 `SchedulerJobRunner._create_dag_runs` 處理，依賴時間排程相關的 metadata，關心「時間到了沒？`active_runs`還夠嗎？」如果是，就建立 `SCHEDULED` run。
+
+asset_triggered_dags 由 `SchedulerJobRunner._create_dag_runs_asset_triggered` 處理，依賴事件相關的 metadata，關心「哪些 asset_event 應該觸發新的run？這次 run 要吃掉哪些 `AssetEvent`？」然後建立 `ASSET_TRIGGERED` run。
+
 決定他們會不會變成 RUNNING 的是 `SchedulerJobRunner._start_queued_dagruns`。
 
 ### SchedulerJobRunner._start_queued_dagruns
