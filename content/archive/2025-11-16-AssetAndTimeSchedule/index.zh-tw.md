@@ -67,6 +67,8 @@ asset_triggered_dags 由 `SchedulerJobRunner._create_dag_runs_asset_triggered` �
 
 ## 實作
 
+下一篇將會講述實作細節。
+
 # Reference
 
 [Airflow Metadata Database Schema](https://airflow.apache.org/docs/apache-airflow/stable/database-erd-ref.html)
