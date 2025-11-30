@@ -1,13 +1,13 @@
 +++
 date = '2025-11-16T00:00:00-00:00'
 draft = true
-title = 'AssetAndTimeScheduler實作過程思考與紀錄（1/2）'
+title = 'AssetAndTimeScheduler實作過程思考與紀錄（Part 1）'
 tags = ["Airflow"]
 categories = ["Open Source"]
 +++
 # 背景介紹
 
-此篇文章記錄了 [issue #58506](https://github.com/apache/airflow/issues/58056) 所要求的新 feature 的個人思考與開發過程。
+此篇文章記錄了個人思考與開發 [issue #58506](https://github.com/apache/airflow/issues/58056) 所要求 feature 的過程。
 
 # 研究
 
