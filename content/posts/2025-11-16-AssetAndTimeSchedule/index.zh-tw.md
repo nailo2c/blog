@@ -1,19 +1,30 @@
-+++
-date = '2025-11-16T00:00:00-00:00'
-draft = true
-title = 'AssetAndTimeScheduler實作過程思考與紀錄（Part 1）'
-tags = ["Airflow"]
-categories = ["Open Source"]
-+++
-# 背景介紹
+---
+title: "AssetAndTimeScheduler實作過程思考與紀錄（Part 1）"
+date: "2025-11-16T00:00:00-00:00"
+draft: true
+description: "此篇文章記錄了個人思考與開發 Issue #58506 所要求 feature 的過程"
+featuredImage: "airflow_feat_implementation.png"
+
+tags: ["Airflow"]
+categories: ["Open Source"]
+
+# toc:
+#   enable: true
+#   keepStatic: false # 強制固定顯示
+#   auto: false       # 關閉自動折疊
+math:
+  enable: true
+---
+
+## 背景介紹
 
 此篇文章記錄了個人思考與開發 [issue #58506](https://github.com/apache/airflow/issues/58056) 所要求 feature 的過程。
 
-# 研究
+## 研究
 
 我在 Airflow Core 方面沒有經驗，為了實作出這個功能，我參考了既有的 AssetOrTimeScheduler，發現此功能是依靠 `SchedulerJobRunner` 的能力而來，因此了解 `SchedulerJobRunner` 的運作機制變成了我的首要課題。
 
-## SchedulerJobRunner 與 AssetOrTimeSchedule
+### SchedulerJobRunner 與 AssetOrTimeSchedule
 
 我的理解是 `SchedulerJobRunner` 啟動後，會定期掃描 Queue 與 Database 來做各種事。執行 `airflow scheduler` 後，`_run_scheduler_job` function 會執行 `SchedulerJobRunner._execute`，裡頭會執行 `_run_scheduler_loop` 並呼叫 `EventScheduler` 來運作定期掃描。
 
@@ -23,7 +34,6 @@ categories = ["Open Source"]
 ```python
 from airflow.timetables.assets import AssetOrTimeSchedule
 from airflow.timetables.trigger import CronTriggerTimetable
-
 
 @dag(
     schedule=AssetOrTimeSchedule(
@@ -40,9 +50,9 @@ def example_dag():
 
 至於 Cron 的部分，`next_dagrun_info` function 會更新 metadata table 讓 scheduler 知道何時該 create DagRun，最後由 `SchedulerJobRunner._create_dagruns_for_dags` query 出 non_asset_dags 跟 asset_triggered_dags。如果上游 asset 還沒準備好，此時 Dag 就會在 non_asset_dags 裡，最終被 `SchedulerJobRunner._create_dag_runs` 執行。
 
-# AssetAndTimeScheduler
+## AssetAndTimeScheduler
 
-## 設計
+### 設計
 
 根據 issue 內容，先定義出最小可用版的 Acceptance Criteria，OP所說的 backfill 功能先不予考慮。
 
@@ -51,7 +61,7 @@ def example_dag():
 + AC3: 新增文件
 + AC4: UI？
 
-### SchedulerJobRunner._create_dagruns_for_dags
+#### SchedulerJobRunner._create_dagruns_for_dags
 
 它會將 dags 區分為 non_asset_dags 跟 asset_triggered_dags，並把他們放進 table 中，狀態為 DagRunState.QUEUED。
 
@@ -61,19 +71,19 @@ asset_triggered_dags 由 `SchedulerJobRunner._create_dag_runs_asset_triggered` �
 
 決定他們會不會變成 RUNNING 的是 `SchedulerJobRunner._start_queued_dagruns`。
 
-### SchedulerJobRunner._start_queued_dagruns
+#### SchedulerJobRunner._start_queued_dagruns
 
 這個 function 的作用是找出所有狀態為 queued 的 dags，並決定是否將它們轉為 running。
 
-## 實作
+### 實作
 
 下一篇將會講述實作細節。
 
-# Reference
+## Reference
 
 [Airflow Metadata Database Schema](https://airflow.apache.org/docs/apache-airflow/stable/database-erd-ref.html)
 
-# tmp
+## tmp
 
 generate_run_id
 1. 當 DagRunType 不是 ASSET_TRIGGERED 時
