@@ -1,14 +1,17 @@
-+++
-date = '2025-12-01T00:00:00-00:00'
-draft = true
-title = '用Breeze測試Airflow K8s環境'
-tags = ["Airflow"]
-categories = ["Open Source"]
-+++
+---
+title: "用Breeze測試Airflow K8s環境"
+date: "2025-12-01T00:00:00-00:00"
+draft: true
+description: ""
+featuredImage: ""
+
+tags: ["Airflow"]
+categories: ["Open Source"]
+---
 
 記錄我使用 `breeze k8s` 測試時的步驟以及遇到的坑。
 
-# Build a local k8s cluster
+## Build a local k8s cluster
 
 近期我會用以下指令來建立以及啟動一個Local K8s Cluster來做測試，我的筆電是 Macbook Air M1 w/ 16GB ram。
 
@@ -51,7 +54,7 @@ local-path-storage   Active   45h
 test-namespace       Active   15m
 ```
 
-# Update dag to k8s cluster
+## Update dag to k8s cluster
 
 就我所知，目前要在 update k8s cluster airflow dag 有點麻煩，必須將 dag 放到 airflow 根目錄的 `/dags` 資料夾下並 rebuild image 並重啟 dag-processor 和 scheduler，整個過程在我的 local device 大約花費六分鐘。
 

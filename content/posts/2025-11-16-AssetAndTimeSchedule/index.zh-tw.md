@@ -8,10 +8,6 @@ featuredImage: "airflow_feat_implementation.png"
 tags: ["Airflow"]
 categories: ["Open Source"]
 
-# toc:
-#   enable: true
-#   keepStatic: false # 強制固定顯示
-#   auto: false       # 關閉自動折疊
 math:
   enable: true
 ---
